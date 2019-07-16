@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5ED69F0-40A4-41FC-8C48-75F3AED71AC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0AB87EEE-3AB8-417F-958B-10426D67BDCD}"
+	ProjectSection(SolutionItems) = preProject
+		!README.txt = !README.txt
+		LICENSE.txt = LICENSE.txt
+		logo.png = logo.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableauAPI", "TableauAPI\TableauAPI.csproj", "{86424F73-D49D-4372-BFF9-A30F5A16CE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableauAPI.Test", "TableauAPI.Test\TableauAPI.Test.csproj", "{8CC2E216-FF9B-4D3A-819D-7F8BAF2DF8C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3DFF7B9D-89EE-4385-9023-D0FE3D32EB65}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86424F73-D49D-4372-BFF9-A30F5A16CE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86424F73-D49D-4372-BFF9-A30F5A16CE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86424F73-D49D-4372-BFF9-A30F5A16CE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86424F73-D49D-4372-BFF9-A30F5A16CE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC2E216-FF9B-4D3A-819D-7F8BAF2DF8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC2E216-FF9B-4D3A-819D-7F8BAF2DF8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC2E216-FF9B-4D3A-819D-7F8BAF2DF8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC2E216-FF9B-4D3A-819D-7F8BAF2DF8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86424F73-D49D-4372-BFF9-A30F5A16CE39} = {C5ED69F0-40A4-41FC-8C48-75F3AED71AC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EF7E08A-B657-43BC-B006-CE4C4CA4F424}
+	EndGlobalSection
+EndGlobal
